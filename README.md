@@ -1,30 +1,45 @@
-# Employee-Attrition
-Employee Attrition Prediction
-Overview
-This project focuses on predicting employee attrition using exploratory data analysis (EDA) and machine learning models. The goal is to identify factors that contribute to employee turnover and build a predictive model to help organizations take proactive measures.
+# 📊 Employee Attrition Prediction  
 
-Key Features
-Exploratory Data Analysis (EDA): Analyzed the dataset to uncover patterns, correlations, and insights about employee attrition.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange)](https://scikit-learn.org/)  
+[![Pandas](https://img.shields.io/badge/Pandas-1.3+-brightgreen)](https://pandas.pydata.org/)  
 
-Data Preprocessing: Handled missing values, encoded categorical variables, and removed irrelevant features.
+**Predicting employee turnover using data analysis and machine learning to help organizations reduce attrition.**  
 
-Machine Learning Models: Implemented and evaluated models such as Random Forest, Decision Tree, and SVM to predict attrition.
+---
 
-Performance Metrics: Used confusion matrix, classification report, and accuracy score to assess model performance.
+## 🔍 Overview  
+This project analyzes employee attrition by leveraging **Exploratory Data Analysis (EDA)** and **machine learning models**. The goal is to identify key factors driving employee turnover and build a predictive model to help HR teams take proactive retention measures.  
 
-Dataset
-The dataset used is HR-Employee-Attrition.csv, which contains 35 features related to employee demographics, job satisfaction, work environment, and attrition status.
+---
 
-Results
-The best-performing model achieved an accuracy of XX% (replace with actual accuracy).
+## 🚀 Key Features  
+✔ **Exploratory Data Analysis (EDA)**  
+- Visualized trends and correlations  
+- Identified class imbalance in `Attrition`  
+- Analyzed feature distributions
+- ![]
 
-Key factors influencing attrition were identified (e.g., job satisfaction, work-life balance, etc.).
+✔ **Data Preprocessing**  
+- Encoded categorical variables (`BusinessTravel`, `Department`)  
+- Handled missing values  
+- Feature selection  
 
-Tools and Technologies
-Python
+✔ **Machine Learning Models**  
+| Model            | Accuracy 
+|------------------|----------
+| Random Forest    | 87%      
 
-Pandas, NumPy (Data Manipulation)
 
-Matplotlib, Seaborn (Data Visualization)
+✔ **Model Evaluation**  
+- Generated classification reports  
+- Confusion matrix analysis  
 
-Scikit-learn (Machine Learning)
+---
+
+## 📂 Dataset  
+**`HR-Employee-Attrition.csv`** (1,470 employees × 35 features)  
+```python
+import pandas as pd
+df = pd.read_csv("HR-Employee-Attrition.csv")
+print(df.shape)  # (1470, 35)
