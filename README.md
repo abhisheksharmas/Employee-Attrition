@@ -18,7 +18,8 @@ This project analyzes employee attrition by leveraging **Exploratory Data Analys
 - Visualized trends and correlations  
 - Identified class imbalance in `Attrition`  
 - Analyzed feature distributions
-- ![]
+- ![Capture](Capture.JPG)
+- ![Capture](Capture2.JPG)
 
 ✔ **Data Preprocessing**  
 - Encoded categorical variables (`BusinessTravel`, `Department`)  
@@ -33,13 +34,8 @@ This project analyzes employee attrition by leveraging **Exploratory Data Analys
 
 ✔ **Model Evaluation**  
 - Generated classification reports  
-- Confusion matrix analysis  
+- Confusion matrix analysis
+- ![Capture](Capture3.JPG)
 
 ---
 
-## 📂 Dataset  
-**`HR-Employee-Attrition.csv`** (1,470 employees × 35 features)  
-```python
-import pandas as pd
-df = pd.read_csv("HR-Employee-Attrition.csv")
-print(df.shape)  # (1470, 35)
